@@ -1,3 +1,19 @@
 This is a test file using VIM and git cli
 
 this is another part that I wanted to add to the file.
+
+to get the repo on your computer:
+git clone https://github.com/Aogle2/CodeLouisvilleWork.git
+
+
+when you add content and need to commit it:
+git commit -a -m "Adding all these things"
+
+or
+
+git commit TestFile.txt -m "THis one changed."
+
+
+To finalize this process:
+
+git push
