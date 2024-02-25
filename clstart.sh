@@ -48,3 +48,18 @@ do
 	fi
 done
 
+#Get the one repo that is for pscode
+if [ -d "pscode-wk5" ];
+then
+	echo "pscode-wk5 exist"
+	cd pscode-wk5
+	git add .
+	git commit -m "Bash Automation"
+	git push
+	cd ..
+else
+	echo "pscode-wk5"
+	git clone "https://github.com/Aogle2/pscode-wk5.git"
+fi
+
+
